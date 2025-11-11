@@ -5,9 +5,8 @@ if (process.env.BUILD_MODE === 'dev') {
 }
 
 if (process.env.BUILD_MODE === 'production') {
-  // apiRoot = 'https://trelloapi-zapb.onrender.com'
-  apiRoot = 'http://localhost:8017'
-  // apiRoot = 'https://fqdfrql2-5173.asse.devtunnels.ms'
+  apiRoot = 'https://trello-backend-1wog.onrender.com'
+  // apiRoot = 'http://localhost:8017'
 }
 
 export const API_ROOT = apiRoot
